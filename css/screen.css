@@ -26,6 +26,7 @@ form {
 legend {
   text-align: center;
   text-decoration: underline;
+}
 fieldset {
 	border: none;
 	padding: 25px;
