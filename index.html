@@ -8,12 +8,22 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <h1>Input User Data</h1>
+  <h1>Participant Form</h1>
   <form method="POST" autocomplete="on" action="#null">
     <fieldset>
 	<legend> User Data </legend>
 	  <div>
-	    <label>First Name: <input type="text" name="first_field" placeholder="First Name" required></label>
-		
+	    <label>Email Address: <input type="text" name="email_field" placeholder="example@gmail.com" required></label>
+	  </div>
+	  <div>
+	    <label>Phone Number: <input type="text" name="phone_field" placeholder="(XXX)-XXX-XXX" required></label>
+	  </div>
+	  <div>
+	    <label>DOB: <input type="text" name="dob_field" placeholder="MM/DD/YEAR" required></label>
+	  </div>
+	  <div>
+	    <input type="Submit" value="Submit">
+	  </div>
+  </form>
 </body>
 </html>
